@@ -3,7 +3,8 @@ module.exports = {
 		browser: true
 	},
 	extends: [
-		'plugin:processmaker/recommended'
+		'plugin:processmaker/recommended',
+		'prettier'
 	],
 	rules: {
 		'no-restricted-imports': [ 2, {

@@ -3,7 +3,8 @@ module.exports = {
 		node: true
 	},
 	extends: [
-		'plugin:processmaker/recommended'
+		'plugin:processmaker/recommended',
+		'prettier'
 	],
 	parserOptions: {
 		ecmaVersion: 'latest'

@@ -6,7 +6,8 @@ module.exports = {
 	},
 	extends: [
 		'plugin:processmaker/recommended',
-		'plugin:vue/recommended'
+		'plugin:vue/recommended',
+		'prettier'
 	],
 	plugins: ['vue'],
 	parserOptions: {

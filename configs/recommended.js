@@ -7,7 +7,8 @@ module.exports = {
 		sourceType: 'module'
 	},
 	extends: [
-		'eslint:recommended'
+		'eslint:recommended',
+		'prettier'
 	],
 	rules: {
 		'array-bracket-spacing': [ 'error', 'always' ],
