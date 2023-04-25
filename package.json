@@ -16,14 +16,14 @@
   "scripts": {
     "lint": "npm-run-all \"lint:*\"",
     "lint:js": "eslint .",
-    "test": "mocha tests --recursive"
+    "test": "cd tests && npm run test"
   },
   "dependencies": {
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-vue": "^9.9.0"
   },
   "devDependencies": {
-    "eslint": "^8.19.0",
+    "eslint": "^7.32.0",
     "eslint-plugin-eslint-plugin": "^5.0.0",
     "eslint-plugin-node": "^11.1.0",
     "mocha": "^10.0.0",
@@ -39,5 +39,8 @@
     "configs",
     "index.js"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "workspaces": [
+    "tests"
+  ]
 }
