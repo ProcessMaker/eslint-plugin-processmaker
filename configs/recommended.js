@@ -3,7 +3,7 @@ module.exports = {
 		es2018: true
 	},
 	parserOptions: {
-		ecmaVersion: 'es6',
+		ecmaVersion: 2018,
 		sourceType: 'module'
 	},
 	extends: [
@@ -24,7 +24,6 @@ module.exports = {
 		eqeqeq: "error",
 		"max-len": ["error", { code: 140, ignoreUrls: true }],
 		"comma-dangle": ["error", "never"],
-		"import/no-extraneous-dependencies": "warn",
 		"consistent-return": "warn",
 		"no-plusplus": 0,
 		"no-underscore-dangle": 0,

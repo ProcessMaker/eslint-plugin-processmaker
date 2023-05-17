@@ -1,0 +1,6 @@
+{
+  "extends": ["plugin:processmaker/browser"],
+  "globals": {
+    "Blub": false
+  }
+}
