@@ -1,0 +1,8 @@
+{
+  "extends": [
+    "plugin:processmaker/recommended"
+  ],
+  "globals": {
+    "Blub": false
+  }
+}
