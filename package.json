@@ -1,6 +1,6 @@
 {
   "name": "@processmaker/eslint-plugin-processmaker",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Javascript / Vue Eslint Plugin for ProcessMaker",
   "keywords": [
     "eslint",
