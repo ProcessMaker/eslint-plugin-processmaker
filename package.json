@@ -13,6 +13,8 @@
   "author": "Jose Chirivella <jose.chirivella@processmaker.com",
   "main": "./index.js",
   "exports": "./index.js",
+  "repository": "github:ProcessMaker/eslint-plugin-processmaker",
+  "homepage": "https://github.com/ProcessMaker/eslint-plugin-processmaker",
   "scripts": {
     "all": "npm test",
     "test": "cd tests && npm install && npm test"
